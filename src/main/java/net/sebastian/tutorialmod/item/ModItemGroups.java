@@ -21,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.CONFETTI_GRENADE);
+                        entries.add(ModItems.NetherWand);
                     })
                     .build());
 

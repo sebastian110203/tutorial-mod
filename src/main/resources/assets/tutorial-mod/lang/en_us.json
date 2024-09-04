@@ -1,10 +1,13 @@
 {
   "item.tutorial-mod.ruby": "Ruby",
   "item.tutorial-mod.raw_ruby": "Raw Ruby",
+  "item.tutorial-mod.metal_detector": "Metal Detector",
+  "item.tutorial-mod.confetti_grenade": "Confetti Grenade",
+  "item.tutorial-mod.nether_wand": "Nether Wand",
 
   "block.tutorial-mod.ruby_block": "Block of Ruby",
   "block.tutorial-mod.raw_ruby_block": "Block of Raw Ruby",
 
-  "itemgroup.ruby": "Ruby Tutorial Group"
+  "item-group.ruby": "Ruby Tutorial Group"
 
 }
