@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.CONFETTI_GRENADE);
                         entries.add(ModItems.NetherWand);
+                        entries.add(ModItems.BOOMERANG);
                     })
                     .build());
 

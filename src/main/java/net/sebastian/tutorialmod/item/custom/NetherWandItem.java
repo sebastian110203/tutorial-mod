@@ -38,8 +38,8 @@ public class NetherWandItem extends Item {
 
                 world.setBlockState(context.getBlockPos(), WAND_MAP.get(clickedBlock).getDefaultState()); //make it a portal block
 
-                context.getStack().damage(1,((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
-                        item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
+                    context.getStack().damage(1,((ServerWorld) world), ((ServerPlayerEntity) context.getPlayer()),
+                            item -> context.getPlayer().sendEquipmentBreakStatus(item, EquipmentSlot.MAINHAND));
 
                 world.playSound(null,context.getBlockPos(), SoundEvents.BLOCK_END_PORTAL_SPAWN, SoundCategory.BLOCKS);
 
