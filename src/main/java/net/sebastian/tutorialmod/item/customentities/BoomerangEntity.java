@@ -19,7 +19,7 @@ public class BoomerangEntity extends ThrownEntity {
     }
 
     public BoomerangEntity(World world, PlayerEntity owner) {
-        this(EntityType.SNOWBALL, world); // Placeholder EntityType, we will register a custom type later
+        this(EntityType.POTION, world); // Placeholder EntityType, we will register a custom type later
         this.owner = owner;
         this.ticksFlying = 0;
     }

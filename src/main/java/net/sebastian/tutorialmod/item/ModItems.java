@@ -26,7 +26,7 @@ public class ModItems {
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new Item.Settings().maxDamage(64)));
     public static final Item CONFETTI_GRENADE    = registerItem("confetti_grenade", new ConfettiGrenadeItem(new Item.Settings()));
     public static final Item NetherWand = registerItem("nether_wand", new NetherWandItem(new Item.Settings()));
-    public static final Item BOOMERANG = registerItem("boomerang", new BoomerangItem(new Item.Settings()));
+    public static final Item BOOMERANG = registerItem("boomerang", new  BoomerangItem(new Item.Settings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RUBY); // adds item to creative mod tab, any other items would be added here
         entries.add(RAW_RUBY);
