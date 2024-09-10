@@ -14,7 +14,6 @@ import net.sebastian.tutorialmod.mobs.PinataSheep;
 
 public class ModEntities {
 
-    // Register the PinataSheep entity
     public static final EntityType<PinataSheep> CUSTOM_SHEEP = Registry.register(
             Registries.ENTITY_TYPE,
             Identifier.of(TutorialMod.MOD_ID, "custom_sheep"),
@@ -23,7 +22,6 @@ public class ModEntities {
                     .build()
     );
 
-    // Register the default attributes for the PinataSheep entity
     public static void registerAttributes() {
         FabricDefaultAttributeRegistry.register(CUSTOM_SHEEP, PinataSheep.createSheepAttributes());
     }
